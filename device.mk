@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Overlays
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Power
 PRODUCT_PACKAGES += \
     power.qcom:64
