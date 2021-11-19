@@ -9,7 +9,7 @@ $(call inherit-product, device/realme/X2/device.mk)
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-OCTAVI_BUILD_TYPE=unOfficial
+OCTAVI_BUILD_TYPE=OFFICIAL
 OCTAVI_DEVICE_MAINTAINER=CHAITANYA
 
 TARGET_GAPPS_ARCH := arm64
