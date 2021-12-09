@@ -28,4 +28,17 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">102</integer>
+
+    <string name="proximity_sensor_type" translatable="false">android.sensor.proximity</string>
+    <item name="proximity_sensor_threshold" translatable="false" format="float"
+          type="dimen">4.99</item>
+
+
+     <!-- If true, enable the advance anti-falsing classifier on the lockscreen. On some devices it
+          does not work well, particularly with noisy touchscreens. Note that disabling it may
+          increase the rate of unintentional unlocks. -->
+    <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
+
+    <!-- Doze: check proximity sensor before pulsing? -->
+    <bool name="doze_proximity_check_before_pulse">false</bool>
 </resources>
