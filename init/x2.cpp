@@ -90,24 +90,24 @@ void setRMX(const unsigned int variant)
 
     //RMX1991
     prop[0] = {
-        "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
-        "walleye-user 8.1.0 OPM1.171019 011 4448085 release-keys",
+       "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys",
+       "redfin-user 12 SQ1A.220105.002 7961164 release-keys",
         "RMX1991",
         "RMX1991CN",
     };
 
     //RMX992
     prop[1] = {
-        "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
-        "walleye-user 8.1.0 OPM1.171019 011 4448085 release-keys",
+       "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys",
+       "redfin-user 12 SQ1A.220105.002 7961164 release-keys",
         "RMX1992",
         "RMX1992L1",
     };
 
     //RMX1993
     prop[2] = {
-        "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
-        "walleye-user 8.1.0 OPM1.171019 011 4448085 release-keys",
+        "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys",
+        "redfin-user 12 SQ1A.220105.002 7961164 release-keys",
         "RMX1993",
         "RMX1993L1",
     };
