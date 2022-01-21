@@ -79,4 +79,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Maintainer
 ro.octavi.maintainer=CHAITANYA
+ro.octavi.display.pid=1646178
+# Fingerprint
+fingerprint.nocleanup=true
 
