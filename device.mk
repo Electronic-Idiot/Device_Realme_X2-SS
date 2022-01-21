@@ -56,9 +56,6 @@ PRODUCT_PACKAGES += \
     BluetoothQti \
     libldacBT_bco
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -192,6 +189,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
     # Prebuilt
 PRODUCT_PACKAGES += \
+    recorder \
     DotKiller \
     gcam
 
