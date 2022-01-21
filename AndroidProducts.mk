@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_X2.mk
+    $(LOCAL_DIR)/ancient_X2.mk
+
+    COMMON_LUNCH_CHOICES := \
+    ancient_X2-eng \
+    ancient_X2-user \
+    ancient_X2-userdebug 

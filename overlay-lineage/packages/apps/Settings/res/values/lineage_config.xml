@@ -22,4 +22,8 @@
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
 
+    <!-- AncientOS About Maintainer Info -->
+       <string name="maintainer_name">CHAITANYA</string>
+
+
 </resources>
