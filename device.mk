@@ -192,7 +192,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
     # Prebuilt
 PRODUCT_PACKAGES += \
-    OPScreenRecorder \
     DotKiller \
     gcam
 

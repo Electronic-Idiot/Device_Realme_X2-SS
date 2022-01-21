@@ -1,17 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := OPScreenRecorder
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := OPScreenRecorder/OPScreenRecorder.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := DotKiller
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := DotKiller/DotKiller.apk
