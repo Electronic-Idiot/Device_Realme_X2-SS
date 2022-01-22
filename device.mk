@@ -201,9 +201,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
     # Prebuilt
 PRODUCT_PACKAGES += \
-    recorder \
+    dialer \
     DotKiller \
-    gcam
+    gcam \
+    recorder
 
 # Telephony
 PRODUCT_PACKAGES += \
